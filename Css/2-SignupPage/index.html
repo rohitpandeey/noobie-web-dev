@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            color: #1a1a1a;;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        h2{
+            color: #1a1a1a;
+            padding: 5px;
+        }
+        input{
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #1a1a1a;
+            background-color: #d8d8d8;
+            margin: 10px;
+        }
+        button{
+            color: white;
+            background-color: #aad943;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 15px;
+        }
+        #mail{
+            width: 390px;
+
+        }
+        button:hover{
+            background-color: #8cc63f;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Sign Up</h2>
+        <form action="#" >
+            <input id="mail" type="email" name="username" id="username" placeholder="Email" required>
+            <div> <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+    </div>
+            
+            <input type="password" name="password" placeholder="password" id="password" required>
+            
+    
+            
+            <button>Sign Up</button>
+       </form>  
+    </div>   
+    
+</body>
+</html>

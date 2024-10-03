@@ -1,0 +1,21 @@
+if we want to set favicon icon we can do it following ways 
+#1 name your image file as favicon.ico - here it will apply automatically without using link:favicon 
+#2 using  <link rel="shortcut " href="smily.png" type="image/x-icon">icon
+
+#Linking Partiular Element to Navigation bar 
+Step 1 Give id to tag you want to navigate to eg id="Node"
+        <li id="Node"><strong>Node.js:</strong> A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing for server-side scripting.</li>
+
+Step 2 create one anchor tag and pass id in href
+    <a href="#Node">Node js</a>
+
+#Directing user to Top
+
+method 1 reloads the page and take user to Top
+<a href="">go to top</a>
+
+method 2 take user to top without reloading, here we write hash "#" because of which when clicked on go to top it try to search for given id from top and finds none so in result we reach top of website
+<a href="#">go to top</a>
+
+
+
