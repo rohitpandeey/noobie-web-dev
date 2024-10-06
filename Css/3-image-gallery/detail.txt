@@ -1,0 +1,13 @@
+1 my gallary center pe h with different font
+
+2 gallary bnai h jishme
+
+image-
+image background shadow
+img + text / img (relative) + (absolute) text
+text visible unvisible
+responsive 
+space bewtween them
+image border gradient
+transition
+scale
