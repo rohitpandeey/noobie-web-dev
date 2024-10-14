@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    //cdn
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+
+    //local
+    <script src="../node_modules/react/umd/react.development.js"></script>
+    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="../node_modules/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        //Older Way
+        //upto react 17 
+        // ReactDOM.render(
+        //     "welcome to react",document.querySelector('p')
+        // );
+
+        //Newer Way- React 18
+        //initialisation is mandatory of root
+        const root=ReactDOM.createRoot(document.querySelector('p'));
+        root.render(
+            "Welcome to React"
+        );
+
+
+    </script>
+   
+</head>
+<body>
+    <h5>here will use React </h5>
+    <p></p>
+    <a href="index.html">back to index</a>
+</body>
+</html>
